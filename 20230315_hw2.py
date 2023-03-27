@@ -1,0 +1,5 @@
+print("202302574_안재현")
+num = int(input("인원 수: "))
+numPizza  = num//4 + (num%4!=0)
+print("\n주문 피자 개수 %d판" % numPizza)
+print("총 피자 가격 %d원" %(numPizza*12000))
